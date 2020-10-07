@@ -951,7 +951,7 @@ input[type="button"] {
   display: inline-block;
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .6rem;
   height: 6rem;
@@ -3066,7 +3066,7 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-testimonials {
   padding-top: 14.4rem;
-  padding-bottom: 16rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 
@@ -3256,7 +3256,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-  padding-top: 24rem;
+  padding-top: 32rem;
   padding-bottom: 8rem;
   background-color: #0b0a15;
   position: relative;
