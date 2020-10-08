@@ -2,7 +2,7 @@
 
 <strong>WELCOME TO MY PERSONAL PORTFOLIO REPOSITORY.</strong><br>
 
-![cover image](COVER_GIT.png)
+<a href="https://helioribeiro.github.io/helio.github.io/" title="" target="_blank">![cover image](COVER_GIT.png)</a>
 
 <strong>PORTUGUÊS</strong> <br>
 REPOSITÓRIO PARA O MEU PORTFÓLIO EM CIÊNCIA DE DADOS.
