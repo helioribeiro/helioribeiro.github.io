@@ -2,6 +2,8 @@
 
 <strong>WELCOME TO MY PERSONAL PORTFOLIO REPOSITORY.</strong><br>
 
+<a href="https://helioribeiro.github.io/helio.github.io/" title="" target="_blank">![cover image](COVER_GIT.png)</a>
+
 <strong>PORTUGUÊS</strong> <br>
 REPOSITÓRIO PARA O MEU PORTFÓLIO EM CIÊNCIA DE DADOS.
 PERMITO DOWNLOAD DO CÓDIGO HTML/CSS PORÉM É ESTRITAMENTE PROIBIDO COPIAR OS PROJETOS PARA USÁ-LOS COMO PORTFÓLIO PESSOAL.
