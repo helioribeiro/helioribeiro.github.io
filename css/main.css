@@ -2452,7 +2452,7 @@ html.no-csstransitions .hero-content {
 }
 
 .s-about__section--profile {
-  padding-top: 28rem;
+  padding-top: 24rem;
   padding-bottom: 4rem;
   min-height: 108rem;
   position: relative;
@@ -2476,7 +2476,7 @@ html.no-csstransitions .hero-content {
 .s-about__section--profile .profile-pic {
   width: 24vw;
   position: absolute;
-  top: 8rem;
+  top: 0rem;
   left: calc(50% + 80px);
 }
 
