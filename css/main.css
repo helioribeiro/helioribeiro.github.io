@@ -2415,7 +2415,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:500px) {
   .hero-content h1 {
-    font-size: 4.4rem;
+    font-size: 4rem;
     padding-right: 0;
   }
 
