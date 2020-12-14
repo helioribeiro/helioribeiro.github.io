@@ -254,7 +254,7 @@ i {
 
 strong,
 b {
-  font-family: "Martel", serif;
+  font-family: inherit;
   font-weight: 700;
 }
 
