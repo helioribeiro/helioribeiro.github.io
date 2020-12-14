@@ -2303,7 +2303,11 @@ html.no-csstransitions .hero-content {
  * responsive:
  * hero
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1800px) {
+ @media screen and (min-width: 600px)  {
+  .mobile-break { display: none; }
+}
+
+ @media screen and (max-width:1800px) {
   .hero-content h1 {
     font-size: 6.3rem;
   }
@@ -2397,10 +2401,6 @@ html.no-csstransitions .hero-content {
 @media screen and (max-width:600px) {
   .hero-content h1 {
     font-size: 4.6rem;
-  }
-
-  .hero-content h1 br {
-    display: none;
   }
 
   .hero-social {
