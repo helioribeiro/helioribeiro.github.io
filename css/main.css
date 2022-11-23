@@ -1490,7 +1490,7 @@ input::-moz-focus-inner {
 
 .section-intro {
   position: relative;
-  margin-bottom: 12rem;
+  margin-bottom: 0rem;
 }
 
 .section-intro .display-1 {
@@ -1594,7 +1594,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:400px) {
   .section-intro {
-    margin-bottom: 9.6rem;
+    margin-bottom: 0rem;
   }
 
   .section-intro::before {
@@ -2453,8 +2453,8 @@ html.no-csstransitions .hero-content {
 
 .s-about__section--profile {
   padding-top: 24rem;
-  padding-bottom: 4rem;
-  min-height: 108rem;
+  padding-bottom: 20rem;
+  min-height: 96rem;
   position: relative;
 }
 
@@ -3256,8 +3256,8 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-  padding-top: 32rem;
-  padding-bottom: 8rem;
+  padding-top: 25rem;
+  padding-bottom: 13rem;
   background-color: #0b0a15;
   position: relative;
 }
@@ -3280,7 +3280,7 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer .footer-contacts {
-  margin-top: 7.2rem;
+  margin-top: 5rem;
   margin-left: 8.33333%;
 }
 
