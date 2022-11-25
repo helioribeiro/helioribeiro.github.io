@@ -2008,7 +2008,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-hero {
   width: 100%;
-  height: 100vh;
+  height: 100.5vh;
   min-height: 82rem;
   overflow: hidden;
   background-color: transparent;
