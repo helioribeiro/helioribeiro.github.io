@@ -3446,6 +3446,10 @@ html.no-csstransitions .hero-content {
     padding-top: 16rem;
   }
 
+  .s-footer__bottom {
+    margin-top: 4rem;
+  }
+
   .ss-copyright {
     padding-right: 10rem;
   }
