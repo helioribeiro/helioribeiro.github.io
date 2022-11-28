@@ -3257,7 +3257,7 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-footer {
   padding-top: 25rem;
-  padding-bottom: 13rem;
+  padding-bottom: 10rem;
   background-color: #0b0a15;
   position: relative;
 }
@@ -3269,7 +3269,7 @@ html.no-csstransitions .hero-content {
 .s-footer__bottom {
   font-family: "Gothic A1", sans-serif;
   color: rgba(255, 255, 255, 0.5);
-  margin-top: 8rem;
+  margin-top: 24rem;
 }
 
 .s-footer .footer-email-us .btn:hover,
@@ -3443,7 +3443,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:800px) {
   .s-footer {
-    padding-top: 20rem;
+    padding-top: 16rem;
   }
 
   .ss-copyright {
