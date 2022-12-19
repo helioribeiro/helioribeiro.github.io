@@ -174,13 +174,13 @@
                 $caption = $folio.find('.folio-item__caption'),
                 $titleText = '<h4>' + $.trim($title.html()) + '</h4>',
                 $captionText = $.trim($caption.html()),
-                $href = $thumbLink.attr('href'),
+                $src = $thumbLink.attr('src'),
                 $size = $thumbLink.data('size').split('x'),
                 $width  = $size[0],
                 $height = $size[1];
         
             let item = {
-                src  : $href,
+                src  : $src,
                 w    : $width,
                 h    : $height
             }
@@ -221,7 +221,7 @@
             dots: true,
             infinite: true,
             slidesToShow: 3,
-            slidesToScroll: 1,
+            slidesToScroll: 3,
             pauseOnFocus: false,
             autoplaySpeed: 1500,
             responsive: [
@@ -229,7 +229,7 @@
                     breakpoint: 1080,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 1
+                        slidesToScroll: 2
                     }
                 },
                 {
