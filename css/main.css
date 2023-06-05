@@ -629,6 +629,10 @@ form,
   animation-delay: 0s;
 }
 
+#hero-title-intro {
+  font-size: 5rem;
+}
+
 @-webkit-keyframes dots-jump {
   0% {
     top: 0;
