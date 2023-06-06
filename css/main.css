@@ -101,7 +101,7 @@ body {
 body {
   background: #0b0a15;
   font-family: "Martel", serif;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-style: normal;
   font-weight: normal;
   line-height: 1.778;
@@ -228,7 +228,6 @@ p.lead {
   p.lead {
     font-size: 2.2rem;
   }
-
 }
 
 @media screen and (max-width:600px) {
@@ -627,10 +626,6 @@ form,
 .dots-jump > div:nth-of-type(3) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
-}
-
-#hero-title-intro {
-  font-size: 5rem;
 }
 
 @-webkit-keyframes dots-jump {
@@ -1550,11 +1545,25 @@ input::-moz-focus-inner {
  * responsive:
  * common and reusable styles
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1200px) {
+ @media screen and (min-width:1700px) {
+  #hero-title-intro {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (max-width:1699px) {
+  #hero-title-intro {
+    font-size: 5.5rem;
+  }
+}
+
+ @media screen and (max-width:1200px) {
   .right-vert-line {
     right: 9rem;
   }
-
+  #hero-title-intro {
+    font-size: 5rem;
+  }
 }
 
 @media screen and (max-width:800px) {
@@ -1565,6 +1574,9 @@ input::-moz-focus-inner {
   .right-vert-line {
     height: 16rem;
     right: 6.2rem;
+  }
+  #hero-title-intro {
+    font-size: 3.5rem;
   }
 
 }
