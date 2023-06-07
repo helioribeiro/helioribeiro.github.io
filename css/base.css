@@ -342,6 +342,53 @@ object {
 	height: auto;
 }
 
+@media screen and (min-width:2200px) {
+	#photo-about-section-placement {
+	padding-top: 0rem;
+	max-width: 80%;
+	}
+}
+
+@media screen and (max-width:1800px) {
+	#photo-about-section-placement {
+	padding-top: 4rem;
+	max-width: 110%;
+	}
+}
+
+@media screen and (max-width:1500px) {
+	#photo-about-section-placement {
+	padding-top: 0rem;
+	max-width: 145%;
+	}
+}
+
+@media screen and (max-width:1300px) {
+	#photo-about-section-placement {
+	padding-top: 10rem;
+	max-width: 130%;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	#photo-about-section-placement {
+	padding-top: 14rem;
+	max-width: 110%;
+	}
+}
+
+@media screen and (max-width:1100px) {
+	#photo-about-section-placement {
+	padding-top: 17rem;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	#photo-about-section-placement {
+	padding-top: 20rem;
+	}
+}
+
 /* ------------------------------------------------------------------- 
  * ## Typography resets 
  * ------------------------------------------------------------------- */
@@ -767,6 +814,15 @@ textarea {
 		max-width: 100%;
 	}
 
+}
+
+@media screen and (max-width:900px) {
+	.medium-8 {
+	-ms-flex: 0 0 66.66667%;
+	-webkit-box-flex: 0;
+	flex: 0 0 100%;
+	max-width: 100%;
+	}
 }
 
 /* ------------------------------------------------------------------- 
