@@ -2624,7 +2624,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 24rem;
+  padding-top: 14rem;
   padding-bottom: 20rem;
   background-color: #1d1b37;
   position: relative;
@@ -2635,7 +2635,7 @@ html.no-csstransitions .hero-content {
 }
 
 .s-services__leftcol {
-  padding-bottom: 12rem;
+  padding-bottom: 2rem;
 }
 
 .s-services__leftcol p.lead {
@@ -2787,7 +2787,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:800px) {
   .s-services {
-    padding-top: 20rem;
+    padding-top: 12rem;
   }
 
   .s-services__content .s-services__leftcol {
@@ -2835,7 +2835,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-portfolio {
-  padding-top: 24rem;
+  padding-top: 16rem;
   padding-bottom: 0;
   background-color: #ffffff;
   position: relative;
@@ -2844,7 +2844,7 @@ html.no-csstransitions .hero-content {
 .s-portfolio::before {
   content: "";
   display: block;
-  background-color: #b3c2c1;
+  /* background-color: #b3c2c1; */
   position: absolute;
   top: 0;
   right: 0;
@@ -3042,7 +3042,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:800px) {
   .s-portfolio {
-    padding-top: 20rem;
+    padding-top: 12rem;
   }
 
   .folio-item__thumb a::after {
@@ -3081,7 +3081,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-  padding-top: 10.4rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -3105,8 +3105,8 @@ html.no-csstransitions .hero-content {
 .testimonial-slider .slick-dots {
   display: block;
   list-style: none;
-  padding: 0;
-  margin: 5.6rem 0 0 0;
+  padding-bottom: 12rem;
+  margin: 2rem 0 0 0;
   text-align: center;
 }
 
