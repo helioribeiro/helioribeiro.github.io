@@ -1617,7 +1617,7 @@ input::-moz-focus-inner {
   }
 
   #hero-title-intro {
-    font-size: 3.5rem;
+    font-size: 3.35rem;
   }
 
 }
@@ -3365,7 +3365,7 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer .footer-contacts {
-  margin-top: 5rem;
+  margin-top: 9rem;
   margin-left: 8.33333%;
 }
 
@@ -3568,4 +3568,16 @@ html.no-csstransitions .hero-content {
     bottom: 4rem;
   }
 
+}
+
+.section-divider{
+  width:85%;          /* spans the content area */
+  height:2px;          /* same thickness as other accents */
+  background:#babfc0;  /* re-uses the indigo accent colour main.css](file-service://file-GrCdE2JmfAyudj2P44Qivj) */
+  margin:0 auto 6rem;     /* pushes the heading down – tweak if needed */
+}
+
+/* shorter gap on small screens (optional) */
+@media screen and (max-width:800px){
+  .section-divider{margin-bottom:4rem;}
 }
